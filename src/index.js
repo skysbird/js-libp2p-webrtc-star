@@ -10,7 +10,7 @@ const withIs = require('class-is')
 
 const { AbortError } = require('abortable-iterator')
 const SimplePeer = require('simple-peer')
-const { supportsWebRTC: webrtcSupport } = require('ipfs-utils/src/supports')
+const { supportsWebRTCPartially: webrtcSupport } = require('ipfs-utils/src/supports')
 
 const multiaddr = require('multiaddr')
 const mafmt = require('mafmt')
